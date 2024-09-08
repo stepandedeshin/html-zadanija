@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:aqua;
+}
+.content{
+    margin-left: 1vw;
+}
+.name{
+    margin-bottom: 2vh;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.caption{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 2vh;
+}
+.underscored{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 0.2vh;
+}
+.italic_bolder{
+    font-weight: bolder;
+    font-style: italic;
+}
+.italic{
+    font-style: italic;
+}
+.work_experience_90_94{
+    margin-left: 7vw;
+    list-style-type: disc;
+}
+.work_experience_90_94:last-child{
+    margin-bottom: 2vh;
+}
+.work_experience_85_90{
+    margin-left: 7vw;
+    list-style-type: circle;
+}
+.work_experience_85_90:last-child{
+    margin-bottom: 2vh;
+}
+.education{
+    margin-left: 7vw;
+    list-style-type: square;
+}
