@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../lab_2/assets/styles/version_info.css">
+    <title>Zadanije 2 - version</title>
+</head>
+<body>
+    <header class="name">2.2.1 Назначение раздела 1 - дать информацию о версии HTML</header>
+    <div class="content">
+        <p class="text">
+            При подготовке документов HTML в качестве первой строки используется идентификатор текста DTD (Document Type Declaration - определение типа документа). Это позволяет браузеру идентифицировать документ как соответствующий стандарту HTML. Обычно (но не обязательно) каждый документ
+            HTML начинается co cтроки типа: <br>
+            <span class="bold">&lt;DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 //EN"&gt;</span> <br>
+            В этой строке содержится информация о том, что документ соответствует
+            версии HTML 4.0; разработанной W3C; используемый язык — английский.
+            Возможные варианты идентификатора текста DTD:
+            HTML 4.0 Strict DTD (строгое определение) включает все элементы и атрибуты, не являющиеся нежелательными и не использующиеся в документах с кадрами. Для документов, использующих это DTD, используйте такое объявление типа документа:
+            <br><span class="bold">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"</span><br>
+            HTML 4.0 Transitional DTD (переходное определение) включает все, что включено в строгое DTD, а также нежелательные элементы и атрибуты (большинство из когорых относится к визуальному представлению). Для документов, использующих это DTD, используйте такое объявление типа документа:
+            <br><span class="bold">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0</span><br>
+            Transitional//EN"
+            HTML 4.0 Frameset DTD (определение для кадров) включает все, что включено в переходное DTD, а также кадры. Для документов, использующих это DTD, используйте такое объявление типа:
+            <br><span class="bold">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset/EN"</span><br>
+            Этот элемент обязательным не является. По умолчанию используется последний вариант
+        </p>
+    </div>
+</body>
+</html>

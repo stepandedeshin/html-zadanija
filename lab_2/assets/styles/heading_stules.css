@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1vw;
+    line-height: 3vh
+}
+.name{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.link_text{
+    text-decoration: none;
+    color: black;
+}
+.link_text:visited{
+    color: black;
+}
+.link_text:hover{
+    color: black;
+    text-decoration: underline;
+}
+.lec_parts:first-child{
+    margin-top: 2vh;
+}
+.lec_parts{
+    margin-left: 7vh;
+}

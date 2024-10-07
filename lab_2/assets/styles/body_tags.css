@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1vw;
+    line-height: 3vh
+}
+.name{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text{
+    margin-top: 2vh;
+    max-width: 75vw;
+    margin-left: 12.5vw;
+    word-spacing: 1vw;
+}
+.bold{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.h_using{
+    width: 75vw;
+    height: auto;
+    margin-left: 12.5vw;
+}

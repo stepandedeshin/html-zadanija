@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1vw;
+    line-height: 3vh
+}
+.name{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.info{
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 14px;
+}
+.parts:first-child{
+    margin-top: 2vh;
+}
+.parts{
+    margin-left: 25vw;
+    margin-bottom: 1vh;
+    list-style-type: disc;
+}
+.text{
+    margin-top: 2vh;
+    max-width: 75vw;
+    margin-left: 12.5vw;
+}
+.simply_html{
+    margin-top: 2vh;
+    margin-left: 15vw;
+    width: 75vw;
+    height: auto;
+}
